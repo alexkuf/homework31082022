@@ -1,0 +1,50 @@
+.col {
+    background-color: rgb(106, 69, 238);
+    padding: 10px;
+}
+
+.navbar {
+    width: 650px;
+}
+
+.logo_text {
+    font-size: 30px;
+    font-style: italic;
+    font: bold;
+    padding: 0 20px 0 0;
+}
+
+.nav_link {
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: brown;
+}
+
+.mbox {
+    padding: 15px;
+
+}
+
+.col {
+    padding: 15px;
+
+}
+
+.footer {
+    background-color: rgb(178, 109, 243);
+}
+
+.col4_box img {
+    width: 30px;
+}
+
+@media(max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
